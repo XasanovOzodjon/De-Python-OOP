@@ -32,7 +32,7 @@ def main():
     account2.withdraw(1000)
     account2.show_balance()
     
-    account3 = BankAccount("Dilshod", 1500)
+    account3 = BankAccount("Dilshod")
     account3.deposit(700)
     account3.withdraw(500)
     account3.withdraw(2000)
