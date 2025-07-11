@@ -21,13 +21,13 @@ class BankAccount:
         print(f"{self.owner} hisobidagi mablag: {self.balance}$")
             
 def main():
-    account1 = BankAccount("Ozodjon", 1000)
+    account1 = BankAccount("Ozodjon")
     account1.deposit(500)
     account1.withdraw(200)
     account1.withdraw(1500)
     account1.show_balance()
     
-    account2 = BankAccount("Faridun", 2000)
+    account2 = BankAccount("Faridun")
     account2.deposit(300)
     account2.withdraw(1000)
     account2.show_balance()
